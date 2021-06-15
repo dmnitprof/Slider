@@ -1,20 +1,3 @@
-<<<<<<< HEAD
-const slides = document.querySelectorAll('.slide')
-
-for (const slide of slides) {
-    slide.addEventListener('mousedown', () => {
-        clearActiveClasses()
-        slide.classList.add('active')
-    })
-}
-
-function clearActiveClasses() {
-    slides.forEach((slide) => {
-        slide.classList.remove('active')
-    })
-}
-=======
-
 function slidesPlugin(activeSlide) {
     const slides = document.querySelectorAll('.slide')
     slides[activeSlide].classList.add('active')
@@ -35,4 +18,4 @@ function slidesPlugin(activeSlide) {
 }
 
 slidesPlugin(4)
->>>>>>> 9acc50a... edit app.js, add function slidesPlugin
+
