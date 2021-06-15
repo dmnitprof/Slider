@@ -41,6 +41,11 @@ body {
   left: 20px;
   margin: 0;
   opacity: 0;
+<<<<<<< HEAD
+=======
+  user-select: none;
+  cursor: auto;
+>>>>>>> 9acc50a... edit app.js, add function slidesPlugin
 }
 .slide.active {
   flex: 10;
