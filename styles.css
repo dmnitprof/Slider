@@ -33,6 +33,8 @@ body {
   background-repeat: repeat;
   position: relative;
   transition: all 500ms ease-in-out;
+  user-select: none;
+
 }
 
 .slide h3 {

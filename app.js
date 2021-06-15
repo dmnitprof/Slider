@@ -1,14 +1,27 @@
 function slidesPlugin(activeSlide) {
     const slides = document.querySelectorAll('.slide')
+
     slides[activeSlide].classList.add('active')
+
     for (const slide of slides) {
         slide.addEventListener('mousedown', () => {
+
+
             clearActiveClasses()
+
+
             slide.classList.add('active')
+
+
         })
         slide.addEventListener('touchstart', () => {
+
+
             clearActiveClasses()
+
             slide.classList.add('active')
+
+
         })
     }
 
