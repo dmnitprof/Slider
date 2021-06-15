@@ -6,6 +6,10 @@ function slidesPlugin(activeSlide) {
             clearActiveClasses()
             slide.classList.add('active')
         })
+        slide.addEventListener('touchstart', () => {
+            clearActiveClasses()
+            slide.classList.add('active')
+        })
     }
 
     function clearActiveClasses() {
